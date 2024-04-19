@@ -33,14 +33,17 @@ You need to install node and git locally.
 
 ## Project setup
 
-- Clone repo locally
+### Local Setup
+
+- Clone repository
 
    ``` bash
    git clone https://github.com/AlexKougianos/vue3-vuetify-base-template.git
    ```
 
+- Rename folder to your project name
+- Set `name` property in `package.json` to the same project name
 - Delete `.git` folder
-- Rename folder `name` property in `package.json`
 - Re-initialize git
 
    ``` bash
