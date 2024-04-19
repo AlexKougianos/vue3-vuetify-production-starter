@@ -1,6 +1,8 @@
 <!-- ~/src/pages/LandingPage.vue -->
 <template>
-  <h1>LandingPage</h1>
+  <v-container>
+    <h1>LandingPage</h1>
 
-  <router-link to="/posts">Go to Posts</router-link>
+    <router-link to="/posts">Go to Posts</router-link>
+  </v-container>
 </template>

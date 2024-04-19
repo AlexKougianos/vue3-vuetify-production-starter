@@ -1,7 +1,14 @@
 <template>
   <v-container class="fill-height">
-    <v-responsive class="align-centerfill-height mx-auto" max-width="900">
-      <v-img class="mb-4" height="150" src="@/assets/logo.png" />
+    <v-responsive
+      class="align-centerfill-height mx-auto"
+      max-width="900"
+    >
+      <v-img
+        class="mb-4"
+        height="150"
+        src="@/assets/logo.png"
+      />
 
       <div class="text-center">
         <div class="text-body-2 font-weight-light mb-n1">Welcome to</div>
@@ -36,7 +43,13 @@
               </div>
             </template>
 
-            <v-overlay opacity=".12" scrim="primary" contained model-value persistent />
+            <v-overlay
+              opacity=".12"
+              scrim="primary"
+              contained
+              model-value
+              persistent
+            />
           </v-card>
         </v-col>
 
@@ -54,7 +67,13 @@
             title="Documentation"
             variant="text"
           >
-            <v-overlay opacity=".06" scrim="primary" contained model-value persistent />
+            <v-overlay
+              opacity=".06"
+              scrim="primary"
+              contained
+              model-value
+              persistent
+            />
           </v-card>
         </v-col>
 
@@ -72,7 +91,13 @@
             title="Features"
             variant="text"
           >
-            <v-overlay opacity=".06" scrim="primary" contained model-value persistent />
+            <v-overlay
+              opacity=".06"
+              scrim="primary"
+              contained
+              model-value
+              persistent
+            />
           </v-card>
         </v-col>
 
@@ -90,7 +115,13 @@
             title="Components"
             variant="text"
           >
-            <v-overlay opacity=".06" scrim="primary" contained model-value persistent />
+            <v-overlay
+              opacity=".06"
+              scrim="primary"
+              contained
+              model-value
+              persistent
+            />
           </v-card>
         </v-col>
 
@@ -108,7 +139,13 @@
             title="Community"
             variant="text"
           >
-            <v-overlay opacity=".06" scrim="primary" contained model-value persistent />
+            <v-overlay
+              opacity=".06"
+              scrim="primary"
+              contained
+              model-value
+              persistent
+            />
           </v-card>
         </v-col>
       </v-row>
